@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Attendance</title>
+  <title>Attendance Log</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
-  <h1>Attendance Log</h1>
-  <ul id="attendance">
-    <li>No entries yet pls wait</li>
-  </ul>
+  <h2 style="text-align:center;">Student Attendance Log</h2>
+  <table>
+    <tr>
+      <th>Subject</th>
+      <th>Roll No</th>
+      <th>Student Name</th>
+      <th>Date/Time Logged In</th>
+    </tr>
+    <!-- rows will be appended here -->
+  </table>
 </body>
 </html>
